@@ -1,0 +1,15 @@
+Review 1 (28/08/2018):
+
+1. Use opencsv to parse the file
+2. Use lombok for setter/getters/constructors
+3. logging.file is used in application.properties but not used.
+4. Use static package of springboot to write Front end OR use thymeleaf plugin
+5. WebControllerIndex.fileUpload -- rewrite using java.nio.files package. (Java 8)
+6. Use interfaces
+7. Use logical names for variables, classes, packages, etc
+8. Seggregate functionality as per feature
+9. Why are you using jstl and tomcat-embed-jasper. JSP are out of league now. Use html, css bootstrap
+        OR
+   Use angular 4/5/6
+10. @Controller -- use RestConstoller instead
+    @RequestMapping -- It is outdated now. Use annotations like @GetMapping, @PostMapping, etc.
